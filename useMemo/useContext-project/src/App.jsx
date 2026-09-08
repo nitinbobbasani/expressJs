@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import { ChildA } from './components/ChildA'
 import { ThemeContext, UserContext } from './context/context';
-// import {SocialSlice} from './store/slice/SocialSlice';
 import { addBook } from './store/slice/SocialSlice';
 import {useSelector, useDispatch} from 'react-redux'
 
